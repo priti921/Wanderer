@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Vegan-style;
+    src: url(../font/RomanticaPersonalUse-8V2J.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Vegan-style;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.App {
+    .navbar {
+        position: absolute;
+        z-index: 10;
+        width: 100%; /* very important to add width after fixed postion */
+
+        .navbar-items {
+            list-style: none;
+            padding: 30px 400px 0px 400px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.8em;
+            // text-transform: uppercase;
+            letter-spacing: 4px;
+            font-weight: 100;
+            a {
+                color: white;
+            }
+
+            svg {
+                width: 50px;
+                height: auto;
+            }
+
+
+        }
+}
+
+    .showcase {
+
+        width: 100%;
+        height: 90vh;
+        background: url('../images/background.jpg') no-repeat ;
+        background-size: 100%;
+        color: white;
+        
+       .showcase-content{
+           width: 1000px;
+           position: absolute;
+           top: 45%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+           z-index: 2;
+           display: flex;
+           flex-direction: column;
+           text-align: center;
+
+           .showcase-text{
+               font-size: 8em;
+               letter-spacing: 7px;
+               
+           }
+           .showcase-text-small{
+            //    font-family: Arial, Helvetica;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               font-size: 1.2em;
+               font-weight: 400;
+               letter-spacing: 2px;
+           }
+       }
+}
+    .showcase::after {
+        content: '';
+        position: absolute;
+        clear: both;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90%;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: inset 200px 150px 200px #0b0b0da2, inset -150px -300px 400px #0b0b0d;
+}
+
+    .explore{
+
+        background-color: #0B0B0D;
+        color: white;
+
+        .explore-content{
+            width: 600px;
+            margin: 0 auto;
+            padding-bottom: 50px;
+            text-align: center;
+
+            .explore-text{
+
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 2.5em;
+                font-weight:400;
+                padding-bottom: 20px;
+            }
+            .explore-text-small{
+
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: 200px;
+                font-size: 1.1em;
+                word-spacing: 1px;
+                
+            }
+        }
+    }
+    
+
+}
