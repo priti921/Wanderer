@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wonderer/static/css/main.50613eb1.chunk.css",
+    "main.js": "/wonderer/static/js/main.17f72b4f.chunk.js",
+    "main.js.map": "/wonderer/static/js/main.17f72b4f.chunk.js.map",
+    "runtime-main.js": "/wonderer/static/js/runtime-main.a89ab8f9.js",
+    "runtime-main.js.map": "/wonderer/static/js/runtime-main.a89ab8f9.js.map",
+    "static/js/2.fe9e2b29.chunk.js": "/wonderer/static/js/2.fe9e2b29.chunk.js",
+    "static/js/2.fe9e2b29.chunk.js.map": "/wonderer/static/js/2.fe9e2b29.chunk.js.map",
+    "static/js/3.2cfa543e.chunk.js": "/wonderer/static/js/3.2cfa543e.chunk.js",
+    "static/js/3.2cfa543e.chunk.js.map": "/wonderer/static/js/3.2cfa543e.chunk.js.map",
+    "index.html": "/wonderer/index.html",
+    "static/css/main.50613eb1.chunk.css.map": "/wonderer/static/css/main.50613eb1.chunk.css.map",
+    "static/js/2.fe9e2b29.chunk.js.LICENSE.txt": "/wonderer/static/js/2.fe9e2b29.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/wonderer/static/media/background.711bbdcf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a89ab8f9.js",
+    "static/js/2.fe9e2b29.chunk.js",
+    "static/css/main.50613eb1.chunk.css",
+    "static/js/main.17f72b4f.chunk.js"
+  ]
+}
